@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI for Project & Technical Program Managers — Master Course</title>
+<meta name="description" content="A self-paced, milestone-based AI course for Project Managers, Technical Program Managers, Delivery Managers and Implementation Leaders.">
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--panel2:#18233d;--text:#eef3ff;--muted:#a8b4cc;--accent:#7dd3fc;--accent2:#a78bfa;--ok:#86efac;--line:#2a3756}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#09101e,#0d1324 40%,#10182b);color:var(--text);line-height:1.65}
+a{color:var(--accent)} .wrap{max-width:1180px;margin:auto;padding:24px}
+.hero{padding:70px 0 42px}.eyebrow{letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-size:.8rem;font-weight:800}
+h1{font-size:clamp(2.4rem,6vw,5rem);line-height:1.04;margin:14px 0}.hero p{font-size:1.15rem;color:var(--muted);max-width:850px}
+.grid{display:grid;grid-template-columns:280px 1fr;gap:24px}.side{position:sticky;top:18px;height:max-content}.card{background:rgba(18,26,46,.86);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 15px 40px rgba(0,0,0,.16)}
+.progress{height:10px;background:#22304c;border-radius:99px;overflow:hidden}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+nav a{display:block;padding:8px 10px;border-radius:10px;text-decoration:none;color:var(--muted)}nav a:hover{background:var(--panel2);color:var(--text)}
+.milestone{scroll-margin-top:30px;margin-bottom:28px}.mhead{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.badge{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:var(--accent);font-size:.82rem}
+h2{font-size:2rem;margin:.1rem 0 .4rem}h3{font-size:1.2rem;margin:1.3rem 0 .45rem}.muted{color:var(--muted)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}.lesson,.quiz,.project,.cheat{background:#10192d;border:1px solid var(--line);border-radius:14px;padding:16px}
+ul{padding-left:20px}.concept{display:inline-block;margin:4px 6px 4px 0;padding:5px 9px;border-radius:999px;background:#1b2845;color:#d7e4ff;font-size:.84rem}
+.q{border-top:1px solid var(--line);padding:12px 0}.q:first-child{border-top:0}.answer{margin-top:8px;color:#cbd7ef}.check{accent-color:#86efac;transform:scale(1.1);margin-right:8px}
+.callout{border-left:4px solid var(--accent2);padding:12px 14px;background:#151f36;border-radius:8px}.goal{border-left-color:var(--ok)}
+table{width:100%;border-collapse:collapse;margin:14px 0}th,td{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}th{background:#17233d}
+.footer{text-align:center;color:var(--muted);padding:40px 0}
+@media(max-width:860px){.grid,.cols{grid-template-columns:1fr}.side{position:static}.mhead{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<div class="eyebrow">Self-paced • PM / TPM / Delivery</div>
+<h1>AI for Project & Technical Program Managers</h1>
+<p>A milestone-based course to understand AI from first principles through LLMs, RAG, agents, MCP, enterprise architecture, security, evaluation and AI program management — without needing to become an ML engineer.</p>
+<div class="card">
+<strong>Your mission:</strong> finish every milestone, complete the exercises and capstone, and be able to explain how modern AI systems work, where they fail, how enterprises deploy them, and how a PM should manage them.
+</div>
+</header>
+<div class="grid">
+<aside class="side">
+<div class="card">
+<strong>Course progress</strong>
+<div style="margin:12px 0"><div class="progress"><div id="bar" class="bar"></div></div></div>
+<div id="pct" class="muted">0% complete</div>
+<hr style="border:0;border-top:1px solid var(--line);margin:16px 0">
+<nav>
+<a href="#m1">01 • AI foundations</a><a href="#m2">02 • Machine learning</a><a href="#m3">03 • Deep learning</a><a href="#m4">04 • Transformers</a><a href="#m5">05 • LLMs</a><a href="#m6">06 • Prompting & context</a><a href="#m7">07 • RAG</a><a href="#m8">08 • Tools & APIs</a><a href="#m9">09 • MCP</a><a href="#m10">10 • AI agents</a><a href="#m11">11 • Enterprise AI</a><a href="#m12">12 • Security & evaluation</a><a href="#m13">13 • AI PM mastery</a><a href="#capstone">🏁 Capstone</a>
+</nav>
+</div>
+</aside>
+<main>
+<section class="callout goal"><strong>How to use this course:</strong> learn the lesson → do the exercise → answer the checkpoint questions yourself → reveal/check the answer → tick the milestone complete. Aim for 60–90 minutes per study session.</section>
+
+<section class="milestone card" id="m1">
+<div class="mhead"><div><div class="eyebrow">Milestone 01</div><h2>AI Foundations & Evolution</h2></div><div class="badge">Foundation</div></div>
+<p class="muted">Understand how AI evolved from rules to machine learning, deep learning and generative AI.</p>
+<h3>The evolution in one picture</h3>
+<p><b>Rules → Machine Learning → Deep Learning → Transformers → LLMs → Multimodal AI → Reasoning → Tool use → Agents → Enterprise AI</b></p>
+<h3>Core concepts</h3>
+<div><span class="concept">AI</span><span class="concept">ML</span><span class="concept">Deep Learning</span><span class="concept">NLP</span><span class="concept">Generative AI</span><span class="concept">LLM</span></div>
+<div class="cols">
+<div class="lesson"><h3>What you should know</h3><ul><li><b>AI:</b> the broad field of machines performing tasks associated with intelligence.</li><li><b>ML:</b> systems learn patterns from data rather than every rule being hand-coded.</li><li><b>Deep learning:</b> neural networks with many layers that learn useful representations.</li><li><b>Generative AI:</b> models that generate text, images, code, audio, video or other content.</li><li><b>LLM:</b> a large language model trained to model token sequences and generate language.</li></ul></div>
+<div class="project"><h3>PM exercise</h3><p>Take a business process you know (e.g., invoice approval) and mark every step as <b>rule-based</b>, <b>ML-prediction</b>, <b>generative</b>, or <b>human decision</b>. Explain why.</p></div>
+</div>
+<div class="quiz">
+<h3>Checkpoint</h3>
+<div class="q"><b>Q1. Why did early rule-based AI struggle with messy enterprise processes?</b><details><summary>Answer</summary><div class="answer">Because real-world processes contain exceptions, ambiguity and changing conditions. A fixed rule set becomes brittle and expensive to maintain.</div></details></div>
+<div class="q"><b>Q2. What changed when ML became common?</b><details><summary>Answer</summary><div class="answer">The system could learn patterns from historical data instead of requiring every decision rule to be manually specified.</div></details></div>
+</div>
+<label><input class="check milestone-check" type="checkbox" data-id="m1"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m2">
+<div class="mhead"><div><div class="eyebrow">Milestone 02</div><h2>Machine Learning Without the Math Fear</h2></div><div class="badge">Core</div></div>
+<p class="muted">Understand how models learn, what training data is, and which problems ML is good at.</p>
+<div class="cols">
+<div class="lesson"><h3>Key ideas</h3><ul><li><b>Supervised learning:</b> learn from labelled examples.</li><li><b>Unsupervised learning:</b> discover structure without labels.</li><li><b>Classification:</b> predict a category.</li><li><b>Regression:</b> predict a continuous value.</li><li><b>Features:</b> inputs used by the model.</li><li><b>Labels:</b> target answers in supervised learning.</li><li><b>Training vs inference:</b> learning parameters vs using them to make predictions.</li></ul></div>
+<div class="project"><h3>PM exercise</h3><p>Design an ML project for predicting which implementation projects are at risk of slipping. Define input features, target label, training data, success metric and a human escalation rule.</p></div>
+</div>
+<div class="quiz"><h3>Checkpoint</h3>
+<div class="q"><b>Q1. What is overfitting?</b><details><summary>Answer</summary><div class="answer">A model learns the training data too specifically and performs poorly on unseen data.</div></details></div>
+<div class="q"><b>Q2. Why can a highly accurate model still be a bad enterprise product?</b><details><summary>Answer</summary><div class="answer">Accuracy may ignore cost of mistakes, bias, latency, explainability, workflow adoption, security and business impact.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m2"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m3">
+<div class="mhead"><div><div class="eyebrow">Milestone 03</div><h2>Deep Learning & Neural Networks</h2></div><div class="badge">Core</div></div>
+<p class="muted">Understand the building blocks behind modern neural models.</p>
+<div class="cols">
+<div class="lesson"><h3>Conceptual model</h3><p>A neural network applies learned weights to inputs, passes signals through layers and adjusts those weights during training to reduce error.</p><ul><li>Neuron / node</li><li>Weights</li><li>Activation</li><li>Layers</li><li>Loss function</li><li>Backpropagation</li><li>Gradient descent</li></ul></div>
+<div class="lesson"><h3>Why scale matters</h3><p>More data, compute and parameters can improve model capabilities, but the relationship is not magic: data quality, architecture, training methods and post-training matter too.</p></div>
+</div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. What does backpropagation do?</b><details><summary>Answer</summary><div class="answer">It computes how much each parameter contributed to the error so optimization can adjust the parameters.</div></details></div><div class="q"><b>Q2. As a PM, why do you care about GPUs?</b><details><summary>Answer</summary><div class="answer">They accelerate the parallel matrix operations used in training and inference, affecting cost, speed and feasibility.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m3"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m4">
+<div class="mhead"><div><div class="eyebrow">Milestone 04</div><h2>Transformers: The Breakthrough</h2></div><div class="badge">Critical</div></div>
+<p class="muted">Master the intuition behind the architecture that powered the modern LLM era.</p>
+<div class="callout"><b>Attention in one sentence:</b> the model learns how strongly different tokens should relate to one another while processing context.</div>
+<h3>Know these terms</h3><div><span class="concept">Token</span><span class="concept">Embedding</span><span class="concept">Attention</span><span class="concept">Self-attention</span><span class="concept">Positional information</span><span class="concept">Transformer</span></div>
+<div class="lesson"><h3>What happens conceptually?</h3><p>Text is tokenized → tokens become vectors (embeddings) → transformer layers repeatedly transform those vectors using attention and feed-forward networks → the model predicts likely next tokens or performs another trained objective.</p><p>The 2017 paper <i>Attention Is All You Need</i> introduced the Transformer architecture that became foundational for modern language models.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Why was the Transformer so important?</b><details><summary>Answer</summary><div class="answer">It made sequence processing far more parallelizable and provided a powerful attention mechanism for modeling relationships across context, enabling large-scale training.</div></details></div><div class="q"><b>Q2. What is an embedding?</b><details><summary>Answer</summary><div class="answer">A numeric vector representation that places tokens or other objects in a learned semantic space.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m4"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m5">
+<div class="mhead"><div><div class="eyebrow">Milestone 05</div><h2>LLMs: How ChatGPT-Type Systems Work</h2></div><div class="badge">Critical</div></div>
+<div class="cols"><div class="lesson"><h3>Understand the pipeline</h3><ol><li>Text is split into tokens.</li><li>Tokens are mapped to vectors.</li><li>The transformer processes the context.</li><li>The model predicts a next-token distribution.</li><li>Sampling/decoding selects output tokens.</li><li>The loop repeats until the response is complete.</li></ol></div><div class="lesson"><h3>Training stages</h3><ul><li><b>Pretraining:</b> broad language/world-pattern learning.</li><li><b>Post-training:</b> instruction following, preference shaping, safety and task behavior.</li><li><b>Inference:</b> running the trained model on a new request.</li></ul></div></div>
+<h3>Terms you must be comfortable with</h3><div><span class="concept">Parameters</span><span class="concept">Context window</span><span class="concept">Inference</span><span class="concept">Temperature</span><span class="concept">Pretraining</span><span class="concept">Post-training</span><span class="concept">RLHF</span></div>
+<div class="project"><h3>PM exercise</h3><p>Explain ChatGPT to a CFO in 90 seconds without using the words “magic,” “thinking” or “just predicts text.” Then explain the limits: hallucination, outdated or missing context, ambiguity and non-determinism.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Does an LLM have direct access to your live ERP by default?</b><details><summary>Answer</summary><div class="answer">No. It only gets information available through the application context, retrieved data, tools or other integrations explicitly provided to it.</div></details></div><div class="q"><b>Q2. What is the context window?</b><details><summary>Answer</summary><div class="answer">The amount of tokenized context a model can consider for a request/interaction, subject to the model’s limits and system design.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m5"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m6">
+<div class="mhead"><div><div class="eyebrow">Milestone 06</div><h2>Prompting, Context & Model Selection</h2></div><div class="badge">Practical</div></div>
+<div class="cols"><div class="lesson"><h3>Good prompts are system design</h3><ul><li>State the task and desired outcome.</li><li>Provide relevant context.</li><li>Define constraints and boundaries.</li><li>Give examples when useful.</li><li>Specify output structure.</li><li>Ask for uncertainty or missing data to be surfaced.</li></ul></div><div class="lesson"><h3>Model selection</h3><p>Do not default to the biggest model. Consider quality, latency, cost, context needs, privacy, tool-use capability, reliability and evaluation results.</p></div></div>
+<div class="project"><h3>Hands-on</h3><p>Create a prompt that converts messy project meeting notes into: decisions, actions, owners, dates, risks, dependencies and open questions. Add a rule that unknown owners/dates must be marked “TBD” rather than guessed.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Why is “be smart and summarize this” a weak enterprise prompt?</b><details><summary>Answer</summary><div class="answer">The goal, audience, constraints, definition of a useful summary and required structure are underspecified, making quality inconsistent.</div></details></div><div class="q"><b>Q2. What should a PM measure before adopting a model?</b><details><summary>Answer</summary><div class="answer">Task-level quality plus latency, cost, failure modes, security/privacy constraints and the business outcome the model is expected to improve.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m6"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m7">
+<div class="mhead"><div><div class="eyebrow">Milestone 07</div><h2>RAG — Connecting AI to Enterprise Knowledge</h2></div><div class="badge">Critical</div></div>
+<div class="callout"><b>RAG = Retrieval-Augmented Generation.</b> Retrieve relevant information first, then give it to the model as context for generation.</div>
+<div class="cols"><div class="lesson"><h3>Pipeline</h3><p>Documents/data → chunking/indexing → embeddings → vector/semantic retrieval → optional reranking → relevant context → LLM → grounded answer.</p></div><div class="lesson"><h3>RAG vs fine-tuning</h3><table><tr><th>Need</th><th>Typical fit</th></tr><tr><td>Fresh company policies / docs</td><td>RAG</td></tr><tr><td>Domain-specific behavior/style</td><td>Fine-tuning may help</td></tr><tr><td>Need factual grounding from live data</td><td>RAG / tools</td></tr><tr><td>Need the model to execute an action</td><td>Tool calling / agents</td></tr></table></div></div>
+<div class="project"><h3>Project</h3><p>Design a procurement-policy assistant. Define document sources, chunking approach, metadata filters, retrieval metric, citation behavior, fallback when no answer is found, and access-control model.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Does RAG eliminate hallucinations?</b><details><summary>Answer</summary><div class="answer">No. It can reduce unsupported answers by supplying relevant evidence, but retrieval can fail and the model can still misinterpret or invent.</div></details></div><div class="q"><b>Q2. What is the biggest hidden RAG problem?</b><details><summary>Answer</summary><div class="answer">Retrieval quality. If the right information is not retrieved, a powerful model can still produce a wrong answer convincingly.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m7"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m8">
+<div class="mhead"><div><div class="eyebrow">Milestone 08</div><h2>Tool Calling, APIs & Function Execution</h2></div><div class="badge">Practical</div></div>
+<div class="callout">A model generating text is different from a model that can <b>use a tool</b>. Tool calling lets the AI request structured actions from the surrounding application.</div>
+<div class="cols"><div class="lesson"><h3>Basic flow</h3><p>User → LLM/agent → tool selection → API/function → system result → LLM/agent → user.</p></div><div class="lesson"><h3>Enterprise examples</h3><ul><li>Check invoice status in SAP.</li><li>Create a Jira ticket.</li><li>Fetch a customer record.</li><li>Run a SQL query under controlled permissions.</li><li>Draft but require human approval before sending an email.</li></ul></div></div>
+<div class="project"><h3>PM exercise</h3><p>Design five tools for an AI project assistant. For each define: name, inputs, outputs, permission needed, failure mode, retry policy and whether human approval is required.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Why shouldn't an agent get unrestricted database access?</b><details><summary>Answer</summary><div class="answer">Least privilege limits damage from mistakes, prompt injection, compromised context or unintended actions. Tools should expose only the actions and data the workflow requires.</div></details></div><div class="q"><b>Q2. What is a tool contract?</b><details><summary>Answer</summary><div class="answer">A structured definition of what a tool does, its inputs, outputs, constraints and errors so the model/application can call it consistently.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m8"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m9">
+<div class="mhead"><div><div class="eyebrow">Milestone 09</div><h2>MCP — Model Context Protocol</h2></div><div class="badge">Current</div></div>
+<div class="lesson"><p>Think of MCP as a standardized interface pattern for exposing tools, resources and context to AI applications. It matters because enterprise agents need repeatable ways to connect to systems rather than every integration being a one-off.</p><h3>PM-level mental model</h3><p><b>AI application ↔ protocol/interface ↔ tools/resources ↔ enterprise systems</b></p></div>
+<div class="cols"><div class="project"><h3>Exercise</h3><p>Sketch an MCP-style architecture for an AI delivery manager that can read project docs, query Jira, access approved customer data and create a risk item—but cannot approve financial transactions.</p></div><div class="lesson"><h3>Questions to ask</h3><ul><li>Who authenticates?</li><li>What data can the tool see?</li><li>What actions are allowed?</li><li>How are audit logs captured?</li><li>What happens on tool failure?</li><li>Can one tool call another?</li></ul></div></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Why does MCP matter beyond “another API format”?</b><details><summary>Answer</summary><div class="answer">Standardized interfaces can reduce bespoke integration work, clarify tool/resource contracts and make AI applications more interoperable.</div></details></div><div class="q"><b>Q2. Does MCP itself make a system secure?</b><details><summary>Answer</summary><div class="answer">No. Security still depends on identity, authorization, permissions, isolation, validation, auditing and the surrounding implementation.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m9"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m10">
+<div class="mhead"><div><div class="eyebrow">Milestone 10</div><h2>AI Agents & Agentic Workflows</h2></div><div class="badge">Critical</div></div>
+<div class="callout"><b>Agentic mental model:</b> observe → plan → act → observe result → decide next step → repeat, with bounded permissions and stopping conditions.</div>
+<div class="cols"><div class="lesson"><h3>Agent ingredients</h3><ul><li>Model/reasoner</li><li>Tools</li><li>State/memory</li><li>Planning/orchestration</li><li>Guardrails</li><li>Evaluation/observability</li><li>Human approval where needed</li></ul></div><div class="project"><h3>Agent design exercise</h3><p>Design an agent for overdue invoice follow-up. The agent can read invoices, retrieve customer policy, draft an email and open a task. Human approval is required before any external message is sent.</p></div></div>
+<div class="lesson"><h3>Do not over-agentify</h3><p>Some workflows are better as deterministic automation. Use an agent when ambiguity, changing context and multi-step decisions create value. Keep deterministic controls around high-risk steps.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. What makes an agent different from a chatbot?</b><details><summary>Answer</summary><div class="answer">An agent can manage multi-step work using state and tools, rather than only generating a conversational response.</div></details></div><div class="q"><b>Q2. Where should human-in-the-loop be strongest?</b><details><summary>Answer</summary><div class="answer">At consequential, irreversible, regulated or high-impact actions where errors are costly and policy requires accountability.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m10"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m11">
+<div class="mhead"><div><div class="eyebrow">Milestone 11</div><h2>Enterprise AI Architecture</h2></div><div class="badge">TPM</div></div>
+<div class="lesson"><h3>Architecture you should be able to whiteboard</h3><pre style="white-space:pre-wrap;background:#0b1323;padding:14px;border-radius:10px;border:1px solid var(--line)">User
+  ↓
+Application / workflow
+  ↓
+Agent / orchestration layer
+  ├── LLM / reasoning model
+  ├── RAG / search
+  ├── State / memory
+  ├── Tools / APIs / MCP
+  └── Guardrails + evaluation + observability
+          ↓
+SAP / CRM / Jira / database / documents / SaaS apps</pre></div>
+<div class="cols"><div class="lesson"><h3>Non-functional requirements</h3><ul><li>Latency and throughput</li><li>Availability</li><li>Cost per task</li><li>Privacy and data residency</li><li>Authorization</li><li>Auditability</li><li>Fallback behavior</li><li>Monitoring</li></ul></div><div class="project"><h3>TPM exercise</h3><p>Create a one-page technical program plan for deploying an AI workflow across an ERP-integrated enterprise customer. Include workstreams, dependencies, environment plan, UAT, security review, rollout and rollback.</p></div></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Why is AI architecture not just “call an LLM API”?</b><details><summary>Answer</summary><div class="answer">Production systems need data access, retrieval, tools, identity, security, reliability, evaluation, observability, cost controls and workflow integration.</div></details></div><div class="q"><b>Q2. What is the PM’s role in architecture?</b><details><summary>Answer</summary><div class="answer">You may not own every technical decision, but you must understand dependencies, trade-offs, risks, milestones, acceptance criteria and operational impact well enough to manage the program.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m11"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m12">
+<div class="mhead"><div><div class="eyebrow">Milestone 12</div><h2>AI Security, Reliability & Evaluation</h2></div><div class="badge">Critical</div></div>
+<div class="cols"><div class="lesson"><h3>Security risks</h3><ul><li>Prompt injection</li><li>Sensitive-data leakage</li><li>Excessive agent permissions</li><li>Unsafe tool calls</li><li>Untrusted retrieved content</li><li>Model/provider dependency</li></ul></div><div class="lesson"><h3>Evaluation</h3><p>Build task-specific test sets. Track quality by scenario, not by vibes. Measure both <b>model quality</b> and <b>business outcome</b>.</p><table><tr><th>Metric</th><th>Example</th></tr><tr><td>Quality</td><td>Correct answer / extraction rate</td></tr><tr><td>Grounding</td><td>Evidence-supported response rate</td></tr><tr><td>Agent success</td><td>Tasks completed correctly</td></tr><tr><td>Operational</td><td>Latency, cost, failure rate</td></tr><tr><td>Business</td><td>Hours saved, cycle time, error reduction</td></tr></table></div></div>
+<div class="project"><h3>Evaluation exercise</h3><p>Create 50 test cases for an AI implementation assistant. Include happy paths, ambiguity, missing data, conflicting documents, malicious instructions and high-risk requests. Define pass/fail criteria before testing.</p></div>
+<div class="quiz"><h3>Checkpoint</h3><div class="q"><b>Q1. Why is a benchmark score not enough?</b><details><summary>Answer</summary><div class="answer">Benchmarks may not represent your customers, workflow, data, policies or failure costs. Production evaluation needs task-specific evidence.</div></details></div><div class="q"><b>Q2. What does “AI ROI” actually mean?</b><details><summary>Answer</summary><div class="answer">Quantified business value attributable to the AI system, net of implementation and operating costs, risk and adoption constraints.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m12"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="m13">
+<div class="mhead"><div><div class="eyebrow">Milestone 13</div><h2>AI Product & Program Management Mastery</h2></div><div class="badge">Final</div></div>
+<div class="lesson"><h3>Your AI PM toolkit</h3><ul><li>Problem framing: what outcome are we improving?</li><li>AI fit: why AI instead of deterministic automation?</li><li>Data readiness: what context is available and permitted?</li><li>Model strategy: which model and why?</li><li>Tool strategy: what can the system read/do?</li><li>Human control: which decisions require approval?</li><li>Evaluation: how do we prove it works?</li><li>Rollout: pilot → controlled expansion → production scale.</li><li>Change management: how do users trust and adopt it?</li></ul></div>
+<div class="project"><h3>AI business-case template</h3><table><tr><th>Section</th><th>Question</th></tr><tr><td>Problem</td><td>What painful workflow are we fixing?</td></tr><tr><td>Baseline</td><td>What is the current cycle time, cost, error rate?</td></tr><tr><td>AI role</td><td>What exactly does AI do?</td></tr><tr><td>Guardrails</td><td>What must AI never do?</td></tr><tr><td>Success</td><td>What measurable outcome improves?</td></tr><tr><td>Adoption</td><td>Who uses it and how does their behavior change?</td></tr><tr><td>Economics</td><td>What is build + run cost vs value?</td></tr></table></div>
+<div class="quiz"><h3>Final checkpoint</h3><div class="q"><b>Q1. When should you NOT use AI?</b><details><summary>Answer</summary><div class="answer">When the workflow is deterministic, simple rules solve it cheaply, the data is insufficient, errors are unacceptable without practical controls, or the cost/complexity outweighs the measurable benefit.</div></details></div><div class="q"><b>Q2. What makes an AI initiative a program rather than a demo?</b><details><summary>Answer</summary><div class="answer">Real users, production dependencies, measurable outcomes, security/reliability controls, operating ownership, change management and ongoing evaluation.</div></details></div></div>
+<label><input class="check milestone-check" type="checkbox" data-id="m13"> Mark milestone complete</label>
+</section>
+
+<section class="milestone card" id="capstone">
+<div class="mhead"><div><div class="eyebrow">Capstone</div><h2>Build an Enterprise AI Agent</h2></div><div class="badge">🏁 Graduate</div></div>
+<p>Design an AI agent that manages an enterprise procurement or project-delivery workflow. Your submission should be a 2–4 page architecture/program brief containing:</p>
+<div class="cols">
+<div class="project"><h3>Required output</h3><ol><li>Business problem + baseline metrics</li><li>User personas and workflow</li><li>Architecture diagram</li><li>LLM/model strategy</li><li>RAG design</li><li>Tool/API/MCP contracts</li><li>Memory/state approach</li><li>Human approval points</li><li>Security and permission model</li><li>Evaluation dataset + metrics</li><li>Rollout and rollback plan</li><li>ROI model</li></ol></div>
+<div class="lesson"><h3>Graduate standard</h3><p>You should be able to defend every design decision with a reason such as quality, cost, risk, reliability, latency, compliance or business value.</p><div class="callout goal"><b>You're done when:</b> you can explain the system to an engineer, a product manager, a security lead and an executive — adjusting the level of detail without changing the underlying truth.</div></div>
+</div>
+<h3>Current-trends watchlist</h3>
+<p class="muted">Revisit this section monthly. Track: reasoning models, agentic workflows, computer-use agents, multimodal models, coding agents, enterprise AI, model cost/inference efficiency, open-weight ecosystems, AI evaluation, security and AI infrastructure.</p>
+<h3>Primary resources</h3>
+<ul>
+<li><a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank">Attention Is All You Need — Google Research</a></li>
+<li><a href="https://developers.google.com/machine-learning/crash-course" target="_blank">Google Machine Learning Crash Course</a></li>
+<li><a href="https://huggingface.co/learn/llm-course" target="_blank">Hugging Face LLM Course</a></li>
+<li><a href="https://www.deeplearning.ai/" target="_blank">DeepLearning.AI</a></li>
+<li><a href="https://hai.stanford.edu/ai-index" target="_blank">Stanford AI Index</a></li>
+<li><a href="https://modelcontextprotocol.io/" target="_blank">Model Context Protocol</a></li>
+<li><a href="https://developers.openai.com/" target="_blank">OpenAI Developer Documentation</a></li>
+</ul>
+<label><input class="check milestone-check" type="checkbox" data-id="capstone"> Mark capstone complete</label>
+</section>
+
+<footer class="footer">Built as a practical AI-learning roadmap for Project Managers, Technical Program Managers, Delivery Managers and Implementation Leaders.<br>Keep learning. Keep building. Keep questioning whether AI is actually the right tool.</footer>
+</main></div></div>
+<script>
+const checks=[...document.querySelectorAll('.milestone-check')];
+function load(){checks.forEach(c=>c.checked=localStorage.getItem('ai-pm-'+c.dataset.id)==='1');render()}
+function render(){const done=checks.filter(c=>c.checked).length,total=checks.length,p=Math.round(done/total*100);document.getElementById('bar').style.width=p+'%';document.getElementById('pct').textContent=p+'% complete • '+done+'/'+total+' milestones';}
+checks.forEach(c=>c.addEventListener('change',()=>{localStorage.setItem('ai-pm-'+c.dataset.id,c.checked?'1':'0');render()}));load();
+</script>
+</body></html>
